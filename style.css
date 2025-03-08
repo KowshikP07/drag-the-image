@@ -1,0 +1,76 @@
+body{
+    height:100vh;
+    width:100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('paper1.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main{
+    height:500px;
+    width:500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box1{
+    position: absolute;
+    padding:30px 120px;
+    background-image: url('old paper.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow:5px 15px 10px black;
+    transform: rotate(-2deg);
+}
+.box1 .main1 h3{
+    position: absolute;
+    text-transform: uppercase;
+    font-size: 10px;
+    color: black;
+}
+.heart{
+    border-radius: 50%;
+}
+.image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image p{
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    color: black;
+}
+.heart{
+    padding:70px 70px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-top: 2%;
+}
+.heart .heart1{
+    height:100px;
+    width:100px;
+    background-color: red;
+    transform: rotate(-45deg);
+}
+.heart .heart1:before,.heart .heart1:after{
+    position: absolute;
+    content:"";
+    height:100px;
+    width:100px;
+    border-radius: 50%;
+    background-color: aliceblue;
+}
+.heart .heart1:before{
+    top:-50px;
+    left:0px;
+    background-color: red;
+}
+.heart .heart1:after{
+    top:0px;
+    left:50px;
+    background-color: red;
+}
